@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(../css/root.css);
 
-.bg-img {
-    background-image: url(../img/png/bg-img.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .min-h-100 {
     min-height: 100%;
@@ -158,6 +152,7 @@
 .mt-61 {
     margin-top: 61px;
 }
+
 .mt-56 {
     margin-top: 56px;
 }
@@ -187,14 +182,29 @@
     filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(2832%) hue-rotate(199deg) brightness(96%) contrast(97%);
 }
 
+/* footer */
+.footer-bg {
+    background-image: url(../img/png/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 174px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.gap-24 {
+    gap: 24px;
+}
+
 /* my-btn */
 .myBtn {
     display: none;
     bottom: 15px;
     right: 15px;
-    background-color: var(--color-white);
-    border: 10px solid var(--color-blue);
-    color: var(--color-blue);
+    background-color: var(--color-blue);
+    border: 5px solid var(--color-white);
+    color: var(--color-white);
     cursor: pointer;
     width: 50px;
     height: 50px;

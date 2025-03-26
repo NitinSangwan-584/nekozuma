@@ -2,6 +2,7 @@
     --font-family-primary: "Franklin", sans-serif;
     --font-family-secondary: "Sarabun", sans-serif;
     --text-sm: 14px;
+    --text-base: 21.64px;
     --text-md: 24px;
     --text-lg: 43px;
     --text-xl: 64px;
@@ -22,6 +23,9 @@
 
 .text-sm {
     font-size: var(--text-sm);
+}
+.text-base {
+    font-size: var(--text-base);
 }
 
 .text-md {
@@ -77,5 +81,5 @@
         --text-xl: 32px;
         --text-lg: 32px;
     }
-    
+
 }
