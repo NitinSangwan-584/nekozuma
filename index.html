@@ -19,13 +19,18 @@
 </head>
 
 <body>
-    <header class="min-vh-00  flex-column position-relative bg-dark-blue">
-        
-        <!-- <img class="position-absolute bg-layer" src="./assets/img/svg/blue-box.svg" alt="bg-layer"> -->
-        <nav class="w-100 py-4 z-3">
+    <!-- header -->
+    <header class="min-h-100 flex-column position-relative bg-dark-blue">
+        <img class="layer position-absolute z-1 d-none d-md-block" src="./assets/img/svg/layer-1.svg" alt="layer">
+        <img class="position-absolute layer-r z-1 d-none d-md-block" src="./assets/img/svg/layer-r-small.svg"
+            alt="layer">
+        <img class="position-absolute layer-l " src="./assets/img/svg/layer-l.svg" alt="layer">
+        <img class="position-absolute blue-box-r" src="./assets/img/svg/blue-box-r.svg" alt="blue-box">
+        <nav class="w-100 py-4 z-3 position-relative">
+            <img class="position-absolute bg-layer" src="./assets/img/svg/blue-box.svg" alt="bg-layer">
             <div class="container max-w-1240">
                 <div class="d-flex align-items-center  justify-content-between w-100">
-                    <a href="#" target="_blank">
+                    <a href="https://magiceden.io/marketplace/Nekozuma" target="_blank">
                         <img src="./assets/img/svg/page-logo.svg" class="page-logo position-relative" alt="page-logo">
                     </a>
                     <ul id="name"
@@ -38,7 +43,7 @@
                         <li><a class="text-decoration-none navbar-link font-family-secondary fs-6 lh-100 fw-normal color-white"
                                 href="#">Team</a>
                         </li>
-                        <div class="gap-18 d-flex">
+                        <div class="gap-18 d-flex social">
                             <a href="https://discord.com/" target="_blank"><img src="./assets/img/svg/discord.svg"
                                     alt="discord"></a>
                             <a href="https://x.com/" target="_blank"><img src="./assets/img/svg/twitter.svg"
@@ -53,14 +58,14 @@
                 </div>
             </div>
         </nav>
-        <div class="container max-w-1280">
+        <div class="container max-w-1240">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-6 text-center text-lg-start pt-5 pt-lg-102">
+                <div class="col-12 col-lg-6 z-2 pt-5 pt-lg-102">
                     <img src="./assets/img/svg/blue-line.svg" alt="">
-                    <h1 class="font-family-primary fw-normal text-xl color-light-blue lh-100">
+                    <h1 class="font-family-primary fw-normal text-xl color-light-blue lh-100 mb-11">
                         NEKOZUMA
                     </h1>
-                    <p class="font-family-secondary fw-normal fs-6 lh-100 color-sky">
+                    <p class="font-family-secondary fw-normal fs-6 lh-100 color-sky max-w-502 mb-43">
                         The collection of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force
                         against the anime meta of collections with undoxxed teams and is therefore backed by the team at
                         Nubbies NFT & Karmic Labs.
@@ -70,16 +75,10 @@
                     </button>
                 </div>
                 <div class="col-12 col-lg-6 text-center text-lg-end">
-                    <img class="layer position-absolute z-2" src="./assets/img/svg/layer-1.svg" alt="layer">
-                    <img class="position-absolute layer-r z-2" src="./assets/img/svg/layer-r-small.svg" alt="layer">
-                    <img class="position-absolute layer-l " src="./assets/img/svg/layer-l.svg" alt="layer">
-                    <img class="position-absolute blue-box-r" src="./assets/img/svg/blue-box-r.svg" alt="blue-box">
-                    <img class="cat position-relative z-1 img-fluid" src="./assets/img/png/cat.png" alt="cat">
+                    <img class="cat position-relative img-fluid" src="./assets/img/png/cat.png" alt="cat">
                 </div>
             </div>
         </div>
-        
-        <!-- </section> -->
     </header>
     <!-- go to top btn  -->
     <button class="fs-5 position-fixed myBtn" onclick="topFunction()" id="myBtn" title="Go to top">^</button>
