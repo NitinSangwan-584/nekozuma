@@ -150,6 +150,43 @@
     margin-bottom: 36px;
 }
 
+/* team */
+.max-w-202 {
+    max-width: 202px;
+}
+
+.mt-61 {
+    margin-top: 61px;
+}
+.mt-56 {
+    margin-top: 56px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-9 {
+    margin-bottom: 9px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.mb-39 {
+    margin-bottom: 39px;
+}
+
+.twitter {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.twitter:hover {
+    transform: scale(1.1);
+    filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(2832%) hue-rotate(199deg) brightness(96%) contrast(97%);
+}
+
 /* my-btn */
 .myBtn {
     display: none;
