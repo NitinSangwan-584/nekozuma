@@ -76,13 +76,8 @@
 }
 
 .layer {
-    top: 14%;
-    right: 0%;
-}
-
-.layer-r {
     bottom: 0%;
-    right: 18%;
+    right: 0%;
 }
 
 .navbar-link {
