@@ -64,13 +64,10 @@
 }
 
 .blue-box-r {
-    height: auto;
-    max-width: 100%;
-}
-
-.blue-box-r {
     bottom: 0%;
     right: 0%;
+    height: auto;
+    max-width: 100%;
 }
 
 .layer-l {
@@ -240,12 +237,13 @@
 }
 
 /* footer */
-.mb-24 {
-    margin-bottom: 24px;
-}
 
 .gap-24 {
     gap: 24px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
 }
 
 .mt-46 {
@@ -313,4 +311,21 @@
     .show-navbar {
         right: 0 !important;
     }
+}
+
+@media (max-width:767.98px) {
+
+    .mt-61,
+    .mt-46,
+    .mt-56 {
+        margin-top: 10px;
+    }
+
+    .mb36,
+    .mb-47,
+    .mb-39,
+    .mb-58 {
+        margin-bottom: 10px;
+    }
+
 }
