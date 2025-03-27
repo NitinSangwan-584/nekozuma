@@ -10,6 +10,12 @@
 .max-w-1240 {
     max-width: 1240px;
 }
+.max-w-1040 {
+    max-width: 1040px;
+}
+.max-w-1048 {
+    max-width: 1048px;
+}
 
 .max-w-1280 {
     max-width: 1280px;
@@ -157,10 +163,6 @@
     margin-top: 56px;
 }
 
-.mb-8 {
-    margin-bottom: 8px;
-}
-
 .mb-9 {
     margin-bottom: 9px;
 }
@@ -183,18 +185,36 @@
 }
 
 /* footer */
-.footer-bg {
-    background-image: url(../img/png/footer-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 174px;
-}
-.mb-24{
+
+.mb-24 {
     margin-bottom: 24px;
 }
+
 .gap-24 {
     gap: 24px;
+}
+
+.mt-46 {
+    margin-top: 46px;
+}
+
+.mb-47 {
+    margin-bottom: 47px;
+}
+
+.footer-layer-l {
+    bottom: 0%;
+    left: 0%;
+}
+
+.footer-layer-small {
+    bottom: 0%;
+    right: 18%;
+}
+
+.footer-layer-r {
+    bottom: 0%;
+    right: 0%;
 }
 
 /* my-btn */

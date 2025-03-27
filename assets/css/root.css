@@ -67,7 +67,9 @@
 .bg-dark-blue {
     background-color: var(--color-dark-blue);
 }
-
+.bg-light-blue{
+    background-color: var(--color-light-blue);
+}
 
 
 @media (max-width:991.98px) {
