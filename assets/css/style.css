@@ -8,7 +8,7 @@
     src: url(../font/fgwo____.ttf);
     src: url(../font/FRANKGO.ttf);
     src: url(../font/FranklinGothicITALIC.ttf); */
-    src: url(../font/FranklinGothic.ttf); 
+    src: url(../font/FranklinGothic.ttf);
 }
 
 .min-h-100 {
@@ -222,10 +222,6 @@
     margin-top: 56px;
 }
 
-.mb-9 {
-    margin-bottom: 9px;
-}
-
 .mb-36 {
     margin-bottom: 36px;
 }
@@ -244,7 +240,6 @@
 }
 
 /* footer */
-
 .mb-24 {
     margin-bottom: 24px;
 }
@@ -318,18 +313,4 @@
     .show-navbar {
         right: 0 !important;
     }
-}
-
-@media (max-width:767.98px) {
-
-    /* .bg-layer {
-        left: -60%;
-    } */
-}
-
-@media (max-width:419.98px) {
-
-    /* .bg-layer {
-        left: -100%;
-    } */
 }
