@@ -1,5 +1,5 @@
 :root {
-    --font-family-primary: "Franklin", sans-serif;
+    --font-family-primary: "Franklin";
     --font-family-secondary: "Sarabun", sans-serif;
     --text-sm: 14px;
     --text-base: 21.64px;
@@ -24,6 +24,7 @@
 .text-sm {
     font-size: var(--text-sm);
 }
+
 .text-base {
     font-size: var(--text-base);
 }
@@ -67,7 +68,8 @@
 .bg-dark-blue {
     background-color: var(--color-dark-blue);
 }
-.bg-light-blue{
+
+.bg-light-blue {
     background-color: var(--color-light-blue);
 }
 

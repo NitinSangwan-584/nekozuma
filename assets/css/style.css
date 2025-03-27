@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(../css/root.css);
 
+@font-face {
+    font-family: "Franklin";
+    /* src: url(../font/Franklin\ Gothic\ Condensed.ttf);
+    src: url(../font/fgwo____.ttf);
+    src: url(../font/FRANKGO.ttf);
+    src: url(../font/FranklinGothicITALIC.ttf); */
+    src: url(../font/FranklinGothic.ttf); 
+}
 
 .min-h-100 {
     min-height: 100%;
@@ -44,13 +52,20 @@
 }
 
 .bg-layer {
-    top: -240%;
-    left: -20%;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    height: auto;
 }
 
 .button {
     padding: 8px 24px;
     border-radius: 9px;
+}
+
+.blue-box-r {
+    height: auto;
+    max-width: 100%;
 }
 
 .blue-box-r {
@@ -296,7 +311,7 @@
         bottom: 0;
         right: -100% !important;
         top: 0%;
-        transition: all 400ms linear !important;
+        transition: all 500ms linear !important;
         z-index: 6 !important;
     }
 
@@ -307,14 +322,14 @@
 
 @media (max-width:767.98px) {
 
-    .bg-layer {
+    /* .bg-layer {
         left: -60%;
-    }
+    } */
 }
 
 @media (max-width:419.98px) {
 
-    .bg-layer {
+    /* .bg-layer {
         left: -100%;
-    }
+    } */
 }
