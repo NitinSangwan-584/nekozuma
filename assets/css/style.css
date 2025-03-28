@@ -95,7 +95,6 @@
 }
 
 .social a:hover img {
-    filter: brightness(0) saturate(100%) invert(40%) sepia(98%) saturate(500%) hue-rotate(180deg);
     transform: scale(1.1);
 }
 
@@ -228,7 +227,6 @@
 
 .twitter:hover {
     transform: scale(1.1);
-    filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(2832%) hue-rotate(199deg) brightness(96%) contrast(97%);
 }
 
 /* footer */
