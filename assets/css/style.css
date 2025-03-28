@@ -209,6 +209,16 @@
 }
 
 /* team */
+.crd img {
+    transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.crd img:hover {
+    opacity: 85%;
+    transform: scale(1.05);
+
+}
+
 .max-w-202 {
     max-width: 202px;
 }
