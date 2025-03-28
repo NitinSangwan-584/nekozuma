@@ -11,6 +11,14 @@
     src: url(../font/FranklinGothic.ttf);
 }
 
+.theme-btn {
+    transition: filter 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.theme-btn:hover {
+    transform: scale(1.1);
+}
+
 .min-h-100 {
     min-height: 100%;
 }

@@ -16,7 +16,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom Styles -->
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
 
 <body>
@@ -34,6 +33,13 @@
                     </a>
                     <ul id="name"
                         class="d-flex mb-0 z-2 align-items-center gap-32 nav-link list-unstyled justify-content-center">
+                        <button id="theme-toggle" class="border-0 rounded color-white theme-btn  bg-dark-blue"
+                            onclick="switchTheme()">
+                            <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" stroke="currentColor"><path id="icon-path" d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.364-7.364l-1.414 1.414M5.636 18.364l-1.414 1.414m15.364-1.414l-1.414-1.414M5.636 5.636l-1.414-1.414M12 6a6 6 0 100 12 6 6 0 000-12z" />
+                            </svg>
+                        </button>
+
                         <li><a class="text-decoration-none navbar-link font-family-secondary fs-6 lh-100 fw-normal color-white"
                                 href="#">Overview</a>
                         </li>
@@ -244,7 +250,7 @@
         <img class="position-absolute footer-layer-r d-none d-md-block" src="./assets/img/svg/footer-layer-r.svg"
             alt="footer-layer-r">
         <a href="#" target="_blank"
-            class="font-family-primary text-decoration-none z-2 text-base lh-100 fw-normal text-white mt-46 mb-24">
+            class="font-family-primary text-decoration-none z-2 text-base color-white lh-100 fw-normal text-white mt-46 mb-24">
             NEKOZUMA
         </a>
         <div class="gap-24 d-flex social mb-47 z-2">

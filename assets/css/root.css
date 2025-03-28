@@ -13,6 +13,14 @@
     --color-white: #FFFFFF;
 }
 
+.dark {
+    --color-sky: white;
+    --color-blue: black;
+    --color-dark-blue: black;
+    --color-light-blue: white;
+    --color-white: #FFFFFF;
+}
+
 .font-family-primary {
     font-family: var(--font-family-primary);
 }
