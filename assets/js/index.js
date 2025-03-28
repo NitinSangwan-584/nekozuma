@@ -7,11 +7,9 @@ const navbarbtn = () => {
     document.body.classList.toggle("overflow-hidden")
 }
 //------------------------------------------------theme---------------------------------------------
-function switchTheme() {
-    const body = document.body;
-    const themeToggleButton = document.getElementById('theme-toggle');
-    body.classList.toggle('dark');
-}
+document.getElementById('theme-toggle').addEventListener('click', function () {
+    document.body.classList.toggle('dark');
+});
 //----------------------------------------------back to top------------------------------------------------
 const myButton = document.getElementById("myBtn");
 
